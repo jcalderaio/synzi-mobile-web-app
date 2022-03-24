@@ -1,0 +1,67 @@
+repositories {
+    mavenCentral()
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'newrelic'
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId 'com.synzi.careconnect'
+        versionCode 64
+        versionName "2.2.1"
+
+        minSdkVersion 23
+        targetSdkVersion 28
+
+        ndk {
+            abiFilters 'armeabi-v7a', 'x86'
+        }
+
+        packagingOptions {
+            // The project react-native does not provide 64-bit binaries at the
+            // time of this writing. Unfortunately, packaging any 64-bit
+            // binaries into the .apk will crash the app at runtime on 64-bit
+            // platforms.
+            exclude '/lib/mips64/**'
+            exclude '/lib/arm64-v8a/**'
+            exclude '/lib/x86_64/**'
+        }
+    }
+    signingConfigs {
+        release {
+            storeFile file('../../Certs/Android/Android_Key_4')
+            storePassword ''
+            keyAlias 'tim parmentier'
+            keyPassword ''
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildToolsVersion '27.0.3'
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation "com.newrelic.agent.android:android-agent:5.+"
+
+    implementation 'com.google.firebase:firebase-core:16.0.3'
+    implementation 'com.google.firebase:firebase-messaging:17.3.0'
+
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project(':sdk')
+}
+
+apply plugin: 'com.google.gms.google-services'

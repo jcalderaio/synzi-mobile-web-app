@@ -1,0 +1,66 @@
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.jitsi.meet">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".MainApplication">
+        <activity
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:name=".MainActivity"
+            android:resizeableActivity="true"
+            android:supportsPictureInPicture="true"
+            android:windowSoftInputMode="adjustResize"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:host="beta.hipchat.me" android:scheme="https" />
+                <data android:host="beta.meet.jit.si" android:scheme="https" />
+                <data android:host="chaos.hipchat.me" android:scheme="https" />
+                <data android:host="enso.me" android:scheme="https" />
+                <data android:host="hipchat.me" android:scheme="https" />
+                <data android:host="meet.jit.si" android:scheme="https" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="org.jitsi.meet" />
+            </intent-filter>
+            <!-- Branch URI scheme -->
+            <intent-filter>
+                <data android:scheme="synziconnect" android:host="open" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+
+            <!-- Branch App Links -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" android:host="vcare.app.link" />
+            </intent-filter>
+        </activity>
+        <!-- Branch init -->
+        <meta-data android:name="io.branch.sdk.BranchKey" android:value="key_live_ijVokvF6lDXDa8PBQJMq1dfeBEfp5KId" />
+        <meta-data android:name="io.branch.sdk.BranchKey.test" android:value="key_test_pcUaawz2nz6Eg7VuSRVv8ijgqyngYOPu" />
+
+        <!-- Branch testing (TestMode "true" to simulate fresh installs on dev environment) -->
+        <meta-data android:name="io.branch.sdk.TestMode" android:value="false" />
+    </application>
+</manifest>

@@ -1,0 +1,7 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="SplashTheme" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@layout/new_splash_screen</item>
+    </style>
+</resources>

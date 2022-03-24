@@ -1,0 +1,180 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - Branch-SDK (0.25.1):
+    - Branch-SDK/Core (= 0.25.1)
+  - Branch-SDK/Core (0.25.1)
+  - DoubleConversion (1.1.5)
+  - Folly (2016.09.26.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.4)
+  - React (0.55.4):
+    - React/Core (= 0.55.4)
+  - react-native-background-timer (2.0.0):
+    - React
+  - react-native-branch (2.3.3):
+    - Branch-SDK
+    - React
+  - react-native-calendar-events (1.6.0):
+    - React
+  - react-native-fetch-blob (0.10.6):
+    - React/Core
+  - react-native-keep-awake (2.0.6):
+    - React
+  - react-native-locale-detector (1.0.0):
+    - React
+  - react-native-orientation-locker (1.1.4):
+    - React
+  - react-native-webrtc (1.58.2):
+    - React
+  - React/Core (0.55.4):
+    - yoga (= 0.55.4.React)
+  - React/CxxBridge (0.55.4):
+    - Folly (= 2016.09.26.00)
+    - React/Core
+    - React/cxxreact
+  - React/cxxreact (0.55.4):
+    - boost-for-react-native (= 1.63.0)
+    - Folly (= 2016.09.26.00)
+    - React/jschelpers
+    - React/jsinspector
+  - React/DevSupport (0.55.4):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.55.4)
+  - React/jschelpers (0.55.4):
+    - Folly (= 2016.09.26.00)
+    - React/PrivateDatabase
+  - React/jsinspector (0.55.4)
+  - React/PrivateDatabase (0.55.4)
+  - React/RCTActionSheet (0.55.4):
+    - React/Core
+  - React/RCTAnimation (0.55.4):
+    - React/Core
+  - React/RCTBlob (0.55.4):
+    - React/Core
+  - React/RCTImage (0.55.4):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.55.4):
+    - React/Core
+  - React/RCTNetwork (0.55.4):
+    - React/Core
+  - React/RCTPushNotification (0.55.4):
+    - React/Core
+  - React/RCTText (0.55.4):
+    - React/Core
+  - React/RCTWebSocket (0.55.4):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - ReactNativePermissions (1.1.1):
+    - React
+  - RNDeviceInfo (0.21.5):
+    - React
+  - RNSound (0.10.9):
+    - React/Core
+    - RNSound/Core (= 0.10.9)
+  - RNSound/Core (0.10.9):
+    - React/Core
+  - RNVectorIcons (6.6.0):
+    - React
+  - yoga (0.55.4.React)
+
+DEPENDENCIES:
+  - Branch-SDK (from `../node_modules/react-native-branch/ios`)
+  - DoubleConversion (from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`)
+  - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
+  - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
+  - react-native-background-timer (from `../node_modules/react-native-background-timer`)
+  - react-native-branch (from `../node_modules/react-native-branch`)
+  - react-native-calendar-events (from `../node_modules/react-native-calendar-events`)
+  - react-native-fetch-blob (from `../node_modules/react-native-fetch-blob`)
+  - react-native-keep-awake (from `../node_modules/react-native-keep-awake`)
+  - react-native-locale-detector (from `../node_modules/react-native-locale-detector`)
+  - react-native-orientation-locker (from `../node_modules/react-native-orientation-locker`)
+  - react-native-webrtc (from `../node_modules/react-native-webrtc`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/CxxBridge (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTPushNotification (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - ReactNativePermissions (from `../node_modules/react-native-permissions`)
+  - RNDeviceInfo (from `../node_modules/react-native-device-info`)
+  - RNSound (from `../node_modules/react-native-sound`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - boost-for-react-native
+
+EXTERNAL SOURCES:
+  Branch-SDK:
+    :path: "../node_modules/react-native-branch/ios"
+  DoubleConversion:
+    :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
+  Folly:
+    :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
+  glog:
+    :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
+  React:
+    :path: "../node_modules/react-native"
+  react-native-background-timer:
+    :path: "../node_modules/react-native-background-timer"
+  react-native-branch:
+    :path: "../node_modules/react-native-branch"
+  react-native-calendar-events:
+    :path: "../node_modules/react-native-calendar-events"
+  react-native-fetch-blob:
+    :path: "../node_modules/react-native-fetch-blob"
+  react-native-keep-awake:
+    :path: "../node_modules/react-native-keep-awake"
+  react-native-locale-detector:
+    :path: "../node_modules/react-native-locale-detector"
+  react-native-orientation-locker:
+    :path: "../node_modules/react-native-orientation-locker"
+  react-native-webrtc:
+    :path: "../node_modules/react-native-webrtc"
+  ReactNativePermissions:
+    :path: "../node_modules/react-native-permissions"
+  RNDeviceInfo:
+    :path: "../node_modules/react-native-device-info"
+  RNSound:
+    :path: "../node_modules/react-native-sound"
+  RNVectorIcons:
+    :path: "../node_modules/react-native-vector-icons"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga"
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  Branch-SDK: 7494230721d7a3083d22e2cb3d9ab9dc1340b1ea
+  DoubleConversion: e22e0762848812a87afd67ffda3998d9ef29170c
+  Folly: 211775e49d8da0ca658aebc8eab89d642935755c
+  glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
+  React: 755b16d9a9387e856d4dce6528130c51e4d409b8
+  react-native-background-timer: 10063c04bf85d7f8811dff8c74399f0aa715245f
+  react-native-branch: fe98f2cae66d9e77d81a170040512ddb97cccbaf
+  react-native-calendar-events: 65bdb05397224511de874e865b6424cb8501d993
+  react-native-fetch-blob: 2bef9be702de8726f4d7bf58d2345579aaaee60d
+  react-native-keep-awake: bb4dbb6fd21a7879432f9538b0b7d71398fe9f81
+  react-native-locale-detector: bb60716189d4c69c459355d0a4804c9b13f65e84
+  react-native-orientation-locker: c692698e9947f4415053b9d163a63422822d80c3
+  react-native-webrtc: 0d23bf182c2cf7814e25579a647189e41748cf09
+  ReactNativePermissions: 2e324bb3baf12702e3ec27f76c8ae1158fa69fc6
+  RNDeviceInfo: e7c5fcde13d40e161d8a27f6c5dc69c638936002
+  RNSound: 53d2fc9c6589bd68daba530262b7560393def3ac
+  RNVectorIcons: 0bb4def82230be1333ddaeee9fcba45f0b288ed4
+  yoga: c3ce6137f85f60c93a834235d7f08e2b44a42eed
+
+PODFILE CHECKSUM: feea98ee26171e8e39222e53ecfe0e192a7e215d
+
+COCOAPODS: 1.7.3

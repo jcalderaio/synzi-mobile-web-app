@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "75278215200",
+    "firebase_url": "https://com-synzi-virtualcare-dev.firebaseio.com",
+    "project_id": "com-synzi-virtualcare-dev",
+    "storage_bucket": "com-synzi-virtualcare-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75278215200:android:51fd8dd61859217d",
+        "android_client_info": {
+          "package_name": "com.synzi.virtualcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75278215200-68e35h0e9jb80vfrsuknkm1uaf7njrkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxtravGzdVqSndFOzuqEhsqC5uOHyMX0c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
