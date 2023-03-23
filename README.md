@@ -1,7 +1,7 @@
 # Jitsi Meet - Secure, Simple and Scalable Video Conferences
-[Care Connect (branch) login flow.pdf](https://github.com/jcalderaio/synzi-mobile-web-app/files/11055288/Care.Connect.branch.login.flow.pdf)
 
-[Logout.pdf](https://github.com/jcalderaio/synzi-mobile-web-app/files/11055289/Logout.pdf)
+![Care Connect (branch) login flow](https://user-images.githubusercontent.com/6464473/227334555-8a865e57-4634-4fb4-a1e1-9ee58fdf9a52.jpg)
+
 
 
 Jitsi Meet is an open-source (Apache) WebRTC JavaScript application that uses [Jitsi Videobridge](https://jitsi.org/videobridge) to provide high quality, [secure](#security) and scalable video conferences. You can see Jitsi Meet in action [here at the session #482 of the VoIP Users Conference](http://youtu.be/7vFUVClsNh0).
