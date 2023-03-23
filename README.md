@@ -6,9 +6,7 @@
 ## Care Connect App Logout Diagram
 <img src="https://user-images.githubusercontent.com/6464473/227335415-80846050-8ec1-42da-9258-e378a205c22a.jpg" width=100% height=100% >
 
-<img src="https://user-images.githubusercontent.com/6464473/227346656-a8b43d12-74cf-4084-8bd8-9838e2b64449.mov >
-
-
+<img src="https://github.com/jcalderaio/PSI-employee-timesheet/blob/master/gifs/flexTime.gif" width="400">
                                                                                                                        
 
 Jitsi Meet is an open-source (Apache) WebRTC JavaScript application that uses [Jitsi Videobridge](https://jitsi.org/videobridge) to provide high quality, [secure](#security) and scalable video conferences. You can see Jitsi Meet in action [here at the session #482 of the VoIP Users Conference](http://youtu.be/7vFUVClsNh0).
