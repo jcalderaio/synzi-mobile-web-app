@@ -1,6 +1,7 @@
 # Jitsi Meet - Secure, Simple and Scalable Video Conferences
 
-![Care Connect (branch) login flow](https://user-images.githubusercontent.com/6464473/227334555-8a865e57-4634-4fb4-a1e1-9ee58fdf9a52.jpg)
+<img src="https://user-images.githubusercontent.com/6464473/227334555-8a865e57-4634-4fb4-a1e1-9ee58fdf9a52.jpg" width=100% height=100% >
+                                                                                                                        
 
 
 
